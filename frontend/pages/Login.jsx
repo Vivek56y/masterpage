@@ -25,7 +25,7 @@ function Login() {
     }
 
     try {
-      const url = "http://localhost:5000/auth/login";
+      const url = "https://masterpage-zeta.vercel.app/auth/login";
       console.log('login request URL:', url);
       const response = await fetch(url, {
         method: "POST",
