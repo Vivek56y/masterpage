@@ -26,7 +26,7 @@ function Signup() {
     }
 
     try {
-      const url = "http://localhost:5000/auth/register";
+      const url = "https://masterpage-zeta.vercel.app/auth/register";
       console.log('Signup request URL:', url);
       const response = await fetch(url, {
         method: "POST",
